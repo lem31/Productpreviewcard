@@ -1,0 +1,374 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.container{
+  position: relative;
+  width: 500px;
+  height: 5px;
+  border: 1px solid black;
+  background-color: antiquewhite;
+  margin: 240px auto;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  padding-left: 300px;
+  padding-right: 300px;
+  justify-content: center;
+}
+
+  .container .box{
+    width: 500px;
+    height: 420px;
+    margin-top: -200px;
+    background: white;
+    border: 1px solid white;
+    float: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    text-align: left;
+    
+  }
+
+  .header_perfume { 
+  font-family: "montserrat";
+  font-weight: 500px;
+  text-transform: uppercase;
+  font-size: smaller;
+  margin-left: 20px;
+  display: inline-block;
+  letter-spacing: .2rem;
+  }
+
+  .subhead_Gabrielle {
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 20px;
+  }
+
+  .subhead_Essence {
+    font-family: "montserrat";
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 20px;
+  }
+
+  .subhead_Deparfum {
+    font-family: lucida;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: 20px;
+  }
+
+  .body_text {
+    font-family:"Frances";
+    font-weight:700px;
+    font-size: 14px;
+    opacity: 0.6;
+    margin-left: 20px;
+  
+  }
+
+  .body_textl2 {
+    font-family: "Frances";
+    font-weight:lighter;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .body_textl3 {
+    font-family:"Frances";
+    font-weight:lighter;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .body_textl4 {
+    font-family: "Frances";
+    font-weight:lighter;
+    opacity: 0.6;
+    margin-left: 20px;
+  }
+
+  .price_text1 {
+    font-family:"Montserrat";
+    font-weight: bold;
+    font-size:30px;
+    color: seagreen;
+    margin-left: 20px;
+  }
+
+  .price_text2 {
+    font-family: "Montserrat";
+    opacity:0.6;
+    margin-left: 20px;
+  }
+
+  .dtbutton {
+  background-color: seagreen;
+  color:black;
+  height: 50px;
+  width: 220px;
+  margin-left: 20px;
+  border-radius: 20px;
+  }
+
+  .ATCimg {
+height: 30px;
+width: 30px;
+}
+
+  .mobbutton {
+    display: none;
+  }
+
+  .img_perfume
+{
+  float:left;
+}
+
+.mobile_image {
+  display:none;
+}
+
+ button:active {
+  background-color: yellow;
+ }
+ button:focus {
+  background-color: seagreen;
+ }
+button:hover {
+  background-color: red;
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  /* Mobile Styling*/
+
+  .mobheader_perfume {
+    display: none;
+  }
+
+  .mobsubhead_GabrielleEssence {
+    display: none;
+  }
+
+  .mobsubhead_EauDeParfum {
+    display: none;
+  }
+
+  .mobbody_text {
+    display: none;
+  }
+  .mobbody_textl2 {
+    display: none;
+  }
+
+  .mobbody_textl3 {
+    display: none;
+  }
+
+  .mobbody_textl4 {
+    display: none;
+  }
+
+  .mobprice_text1 {
+ display: none;
+  }
+
+  .mobprice_text2 {
+    display: none;
+  }
+
+  .mobbutton {
+    display: none;
+  }
+
+
+/* Media Queries - to make page responsive */
+
+  @media only screen and (max-width:700px){
+
+    body {
+      width: 200px;
+      height: 200px;
+    }
+    .container {
+      width: 5px;
+      height: 800px;
+      margin-top: -100px;
+     }
+
+    .container .box {
+      width: 450px;
+      height: 760px;
+      margin-left: -210px;
+      margin-top: 80px;
+
+    }
+
+  .header_perfume{
+  display: none;
+  }
+
+  .mobheader_perfume {
+  display: inline-block;
+  font-family: "montserrat";
+  font-weight: 500px;
+  text-transform: uppercase;
+  font-size: smaller;
+  margin-left: 20px;
+  display: inline-block;
+  opacity:0.6;
+  letter-spacing: .2rem;
+    }
+
+    .subhead_Gabrielle {
+      display: none;
+    }
+
+    .subhead_Essence {
+      display: none;
+    }
+
+    .subhead_Deparfum {
+   display: none;
+    }
+
+
+    .mobsubhead_GabrielleEssence {
+      display: inline-block;
+      font-family: "montserrat";
+      font-weight: bolder;
+      font-size: larger;
+      margin-left: 20px;
+    }
+
+    .mobsubhead_EauDeParfum {
+      display:inline-block;
+      font-family: "montserrat";
+      font-weight: bolder;
+      font-size: larger;
+      margin-left: 20px;
+      
+    }
+
+    .body_text {
+    display: none;
+    }
+
+    .body_textl2 {
+      display: none;
+    }
+
+    .body_textl3 {
+      display: none;
+    }
+
+    .body_textl4 {
+      display: none;
+    }
+
+    .mobbody_text {
+    display:inline-block;
+    font-family: "Frances";
+    font-weight:lighter;
+    opacity: 0.6;
+    margin-left: 20px;
+    width: 100%;
+    }
+
+    .mobbody_textl2 {
+      display:inline-block;
+      font-family: "Frances";
+      font-weight:lighter;
+      opacity: 0.6;
+      margin-left: 20px;
+    }
+
+    .mobbody_textl3 {
+      display:inline-block;
+      font-family: "Frances";
+      font-weight:lighter;
+      opacity: 0.6;
+      margin-left: 20px;
+    }
+
+    .mobbody_textl4 {
+      display:inline-block;
+      font-family: "Frances";
+      font-weight:lighter;
+      opacity: 0.6;
+      margin-left: 20px;
+    }
+
+    .mobprice_text1 {
+      display: inline-block;
+      font-family:"Montserrat";
+      font-weight: bold;
+      font-size:30px;
+      color: seagreen;
+      margin-left: 20px;
+      margin-top: -30px;
+    }
+
+    .mobprice_text2 {
+      display: inline-block;
+      font-family:"Montserrat";
+      font-weight: bold;
+      font-size:16px;
+      color: black;
+      opacity:0.2;
+     margin-left: 20px;
+     
+    }
+
+    .price_text1 {
+      display: none;
+    }
+  
+    .price_text2 {
+      display:none;
+    
+    }
+    
+    .img_perfume {
+      display: none;
+    }
+
+    .mobile_image {
+      display:inline-block;
+      float: top;
+      margin-top: -275px;
+      width: 450px;
+      height: 350px;
+    }
+
+ .dtbutton {
+  display: none;
+  
+ }
+
+ .mobbutton {
+  display: inline-block;
+  background-color: seagreen;
+  color:black;
+  height: 60px;
+  width: 400px;
+  margin-left: 20px;
+  border-radius: 20px;
+
+ }
+
+
+ .attribution{
+  display: none;
+ }
+
+ 
+
+  }
